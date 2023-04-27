@@ -29,6 +29,10 @@ def send_pkt(number, interval):
     """
     Send a custom packet with the following fields
 
+    #### Ethernet layer
+    - Source MAC address: 00:11:22:33:44:55
+    - Destination MAC address: 55:44:33:22:11:00
+
     #### IP layer
     - Source address: 192.168.10.4
     - Destination address: 8.8.4.4
@@ -58,7 +62,7 @@ def print_pkt(packet):
     - Length in bytes
     - Raw payload (if any)
     """
-    
+
     # TODO
     pass
 
