@@ -12,7 +12,7 @@ Create and send the following multilayer packet using the function `send_pkt()`.
 
 The `send_pkt()` function takes as input:
 - The number of packets to be sent
-- The number of seconds between each packet sending.
+- The number of seconds between each packet sending
 
 **Construct the packet as follow:**
 
@@ -30,16 +30,16 @@ The `send_pkt()` function takes as input:
 - Payload: "RISC-V Education: https://riscvedu.org/"
 
 ### 2. Listen to all traffic to `8.8.4.4` for 1 minute
-- Sniff all traffic goind to the address 8.8.4.4 for 1 minute
-- Use the function `print_pkt()` to print specific information about the packet sniffed
+- Sniff all traffic goind to the address 8.8.4.4 for 1 minute.
+- Use the function `print_pkt()` to print specific information about the packet sniffed.
 
 ### 3. Listen continuously to only ping commands to `8.8.4.4`
-- Sniff continuously only the packets from a `ping` command to the address `8.8.4.4`
-- Use the function `print_pkt()` to print specific information about the packet sniffed
+- Sniff continuously only the packets from a `ping` command to the address `8.8.4.4`.
+- Use the function `print_pkt()` to print specific information about the packet sniffed.
 
 ### 4. Listen continuously to only outgoing telnet commands
-- Sniff continuously only the packets from a telnet command executed from localhost
-- Use the function `print_pkt()` to print specific information about the packet sniffed
+- Sniff continuously only the packets from a telnet command executed from localhost.
+- Use the function `print_pkt()` to print specific information about the packet sniffed.
 
 ### Write the function `print_pkt()`
 The `print_pkt()` function should print the following packet fields:
