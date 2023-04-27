@@ -52,5 +52,6 @@ The `print_pkt()` function should print the following packet fields:
 
 ## Important notes:
 1. Usage: `sudo python3 sniffer.py`
+1. Refer to the sample outputs is /sample_outputs
 1. Your program will be manually tested for correctness with additional test cases.
 1. Your program should execute with no errors and warnings.
